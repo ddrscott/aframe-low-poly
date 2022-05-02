@@ -1,3 +1,5 @@
+import { LowPolyFactory } from '../main'
+
 LowPolyFactory.simple('circle', createCircleGeometry, {
     'radius': 1,
     'segments': 10,

@@ -1,3 +1,5 @@
+import { LowPolyFactory } from '../main'
+
 LowPolyFactory.simple('box', createBoxGeometry, {
     'width': 1,
     'height': 1,

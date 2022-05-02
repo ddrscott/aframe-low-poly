@@ -1,3 +1,5 @@
+import { LowPolyFactory } from '../main'
+
 LowPolyFactory.simple('sphere', createSphereGeometry, {
     'radius': 1,
     'segments-width': 10,

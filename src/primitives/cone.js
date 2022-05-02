@@ -1,3 +1,5 @@
+import { LowPolyFactory } from '../main'
+
 LowPolyFactory.simple('cone', createConeGeometry, {
     'radius': 1,
     'height': 1,

@@ -1,3 +1,5 @@
+import { LowPolyFactory } from '../main'
+
 LowPolyFactory.simple('plane', createPlaneGeometry, {
     'width': 1,
     'height': 1,

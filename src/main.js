@@ -1,4 +1,4 @@
-class LowPoly {
+export class LowPoly {
 
   static addMappings(name, mapping) {
     return Object.assign({}, mapping, {
@@ -69,7 +69,7 @@ class LowPoly {
   }
 }
 
-class LowPolyFactory {
+export class LowPolyFactory {
 
   static simple(geometryName, createGeometry, properties) {
     var extendDeep = AFRAME.utils.extendDeep;
@@ -120,7 +120,7 @@ class LowPolyFactory {
  * Terrain
  **/
 
-class LowPolyTerrain {
+export class LowPolyTerrain {
 
   static registerCurvature(componentName, computePosition) {
     AFRAME.registerComponent(componentName, {
@@ -215,7 +215,7 @@ function hyphenatedToCamel(hyphenated) {
    .join(""));
 }
 
-class Random {
+export class Random {
   // Seeded prng
   // https://stackoverflow.com/a/47593316/4855984
 

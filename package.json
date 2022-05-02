@@ -1,0 +1,25 @@
+{
+  "name": "@alvinwan/aframe-low-poly",
+  "version": "0.0.5",
+  "description": "Low poly add-ons for a-frame virtual reality models. [View the aframe low-poly demo &raquo;](http://alvinwan.com/aframe-low-poly/demo)",
+  "main": "index.js",
+  "scripts": {
+    "dist": "esbuild src/index.js --bundle --external:aframe --minify --analyze --sourcemap --outfile=dist/aframe-low-poly.min.js",
+    "build": "esbuild src/index.js --bundle --external:aframe --analyze --sourcemap --outfile=dist/aframe-low-poly.min.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alvinwan/aframe-low-poly.git"
+  },
+  "keywords": [],
+  "author": "Alvin Wan <alvin@alvinwan.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alvinwan/aframe-low-poly/issues"
+  },
+  "homepage": "https://github.com/alvinwan/aframe-low-poly#readme",
+  "dependencies": {
+    "aframe": "^1.3.0",
+    "esbuild": "^0.14.38"
+  }
+}

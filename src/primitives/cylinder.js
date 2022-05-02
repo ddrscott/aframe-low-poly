@@ -1,3 +1,5 @@
+import { LowPolyFactory } from '../main'
+
 LowPolyFactory.simple('cylinder', createCylinderGeometry, {
     'radius-top': 1,
     'radius-bottom': 1,
